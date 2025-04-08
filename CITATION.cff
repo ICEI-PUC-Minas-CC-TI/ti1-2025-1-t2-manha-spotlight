@@ -1,30 +1,36 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Spotlight
 authors:
+  - family-names: Santos Leite
+    given-names: Ana Julia
+  - family-names: Totaro Bruekers
+    given-names: Filipe
+  - family-names: Teodoro Gomes
+    given-names: Gabriel
+  - family-names: Mafort Starling
+    given-names: Guilherme
   - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+    given-names: Pedro
   - family-names: 
     given-names:
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Nepomuceno Curto
+    given-names: Hayala 
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Mara Freitas Diniz
+    given-names: Luciana
+ - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Dias Maciel
+    given-names: Wesley 
 keywords:
-  - 
-  - 
+  - Rede de conexão musical
+  - Colaboração artística 
+  - Networking
+  - Plataforma de divulgações de projetos
 repository-code: 
 license: CC-BY-4.0
 version: 1.0.0
