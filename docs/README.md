@@ -2,13 +2,13 @@
 
 Informações básicas do projeto.
 
-* **Projeto:** [NOME DO PROJETO]
+* **Projeto:** Spotlight
 * **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
 * **Membros da equipe:**
 
-  * [Fulano](https://github.com/fulano) ⚠️ EXEMPLO ⚠️
-  * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
-  * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
+  * [Ana Julia Santos Leite](https://github.com/AnaJuliaSantosLeitos)
+  * [Filipe Totaro Bruekers](https://github.com/lipebrks)
+  * [Gabriel Teodoro Gomes](https://github.com/GabrielTeodoruh)
 
 A documentação do projeto é estruturada da seguinte forma:
 
