@@ -188,9 +188,7 @@ Estes são os protótipos de telas do sistema.
 
 ### User Flow
 
-**✳️✳️✳️ COLOQUE AQUI O DIAGRAMA DE FLUXO DE TELAS ✳️✳️✳️**
-
-![Exemplo de fluxo de telas](images/exemplo-userflow.png)
+**✳️✳️✳️ ![Exemplo de fluxo de telas](images/userflow.png) ✳️✳️✳️**
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
