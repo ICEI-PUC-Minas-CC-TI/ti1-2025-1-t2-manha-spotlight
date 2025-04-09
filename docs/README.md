@@ -71,29 +71,25 @@ Uma coisa que me incomoda muito, muito mesmo, nos projetos, é que o meio de com
 
 ### Personas
 
-**✳️✳️✳️ Persona Artista/Produtor Iniciantes: preciso me conectar a profissionais da minha área, ter visibilidade e um meio que facilite a comunicação para resolver o problema da dificuldade em encontrar produtores, oportunidades e apoio, ocasionado pela falta de uma rede estruturada, pela comunicação ineficaz e pela desvalorização da arte no Brasil.
-Persona Artista e Produtor Iniciantes: preciso de um espaço acessível para divulgar meu trabalho e atrair novos públicos, para resolver o problema da dificuldade de conquistar um público fiel, ocasionado pela falta de conhecimento sobre estratégias de marketing e pela concorrência elevada nas redes sociais.
-Persona Artista e Produtor mais experientes: preciso uma solução eficiente para centralizar e organizar a comunicação nos meus projetos sem depender de múltiplos grupos no WhatsApp, resolver o problema da fragmentação da comunicação, da sobrecarga de informações e da solidão do trabalho artístico, intensificada pelas redes sociais e pela falta de canais específicos para colaboração e troca profissional.
-Persona do Contratante: preciso de um meio que simplifique a busca por artistas e produtores confiáveis e diversificados, com um sistema de portfólio e avaliação integrado, resolver o problema da dificuldade de expandir minha rede de contatos e encontrar profissionais adequados, causado pela ausência de um banco de talentos estruturado e pela informalidade no processo de contratação.
- ✳️✳️✳️**
+**✳️✳️✳️ - Rafael (Persona do Artista e Produtor iniciante)
+- Matheus (Persona do Artista e Produtor mais experiente)
+- Fernanda Oliveira (Persona do Contratante)
+- ArtLink (Persona da Plataforma/Site/App) ✳️✳️✳️**
 
 ## Histórias de Usuários
 
 Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-| EU COMO...`PERSONA` | QUERO/PRECISO ...`FUNCIONALIDADE`        | PARA ...`MOTIVO/VALOR`               |
-| --------------------- | ------------------------------------------ | -------------------------------------- |
-| Usuário do sistema   | Registrar minhas tarefas ⚠️ EXEMPLO ⚠️ | Não esquecer de fazê-las             |
-| Administrador         | Alterar permissões ⚠️ EXEMPLO ⚠️      | Permitir que possam administrar contas |
+Aqui está a tabela formatada com as informações das personas:
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
->
-> **Orientações**:
->
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+| EU COMO...`PERSONA` | QUERO/PRECISO ...`FUNCIONALIDADE` | PARA ...`MOTIVO/VALOR` |
+|----------------------|------------------------------------|------------------------|
+| Artista/Produtor Iniciante | Me conectar a profissionais da minha área e ter visibilidade | Resolver a dificuldade em encontrar oportunidades, causada pela falta de rede estruturada e comunicação ineficaz |
+| Artista/Produtor Iniciante | Um espaço acessível para divulgar meu trabalho | Resolver o problema de conquistar público fiel, causado pela falta de conhecimento em marketing e alta concorrência |
+| Artista/Produtor Experiente | Centralizar e organizar a comunicação em meus projetos | Evitar a fragmentação em múltiplos grupos de WhatsApp e sobrecarga de informações |
+| Artista/Produtor Experiente | Um meio seguro para gerenciar contratos e pagamentos | Resolver problemas de garantias em negociações e pagamentos atrasados |
+| Contratante | Simplificar a busca por artistas/produtores confiáveis | Resolver a dificuldade em encontrar profissionais adequados e expandir rede de contatos |
+| Plataforma | Oferecer um ambiente digital organizado e confiável | Resolver a fragmentação do mercado e dificuldades de networking na indústria criativa |
 
 ## Proposta de Valor
 
