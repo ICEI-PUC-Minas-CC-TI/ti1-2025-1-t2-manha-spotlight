@@ -105,6 +105,14 @@ Aqui está a tabela formatada com as informações das personas:
 
 ![Proposta 1](images/proposta2.png)
 
+##### Proposta para Persona 3 
+
+![Proposta 1](images/proposta3.png)
+
+##### Proposta para Persona 4
+
+![Proposta 1](images/proposta4.png)
+
 Aqui está a tabela formatada conforme solicitado:
 
 ### Requisitos Funcionais
@@ -137,22 +145,6 @@ Aqui está a tabela formatada conforme solicitado:
 | RES-001| Dificuldades técnicas na integração com plataformas externas (dependência de APIs)       |
 | RES-002| Tempo de manutenção elevado devido à complexidade de filtros, ferramentas e ajustes      |
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Os requisitos de um projeto são classificados em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
->
-> **Orientações**:
->
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
 ## Projeto de Interface
 
 Artefatos relacionados com a interface e a interacão do usuário na proposta de solução.
@@ -161,24 +153,13 @@ Artefatos relacionados com a interface e a interacão do usuário na proposta de
 
 Estes são os protótipos de telas do sistema.
 
-**✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
+**✳️✳️✳️ Wireframe ✳️✳️✳️**
 
-##### TELA XPTO ⚠️ EXEMPLO ⚠️
+##### TELA Principal ⚠️ EXEMPLO ⚠️
 
-Descrição para a tela XPTO
+Tela Principal
 
-![Exemplo de wireframe](images/exemplo-wireframe.png)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
->
-> **Orientações**:
->
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+![Tela Principal](images/TelaPrincipal.png)
 
 ### User Flow
 
