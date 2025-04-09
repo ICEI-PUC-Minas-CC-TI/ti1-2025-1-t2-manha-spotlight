@@ -190,16 +190,6 @@ Estes são os protótipos de telas do sistema.
 
 **✳️✳️✳️ ![Exemplo de fluxo de telas](images/userflow.png) ✳️✳️✳️**
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
->
-> **Orientações**:
->
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
 ### Protótipo Interativo
 
 **✳️✳️✳️ COLOQUE AQUI UM IFRAME COM SEU PROTÓTIPO INTERATIVO ✳️✳️✳️**
@@ -217,14 +207,10 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 | Ambiente                    | Plataforma | Link de acesso                                     |
 | --------------------------- | ---------- | -------------------------------------------------- |
 | Processo de Design Thinking | Miro       | https://miro.com/welcomeonboard/dDNEVEMyQ21FeFZuK1RRZzFleldqQnYrWDlUWTIzbmtVTDlCaWJnNU04SHBQK1dNU0ZwZ3BRTXl0dFZSdkVwR04yZTFTQjZTT2kya0FWQUJ4S05wVVR5Vi8yamtSUkdNNHF1ME5zYVhpQTNlSHUxVDNjOHFJVTV1dUNiZEpQU0JBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=269687455722       |
-| Repositório de código     | GitHub     | https://github.com/XXXXXXX ⚠️ EXEMPLO ⚠️      |
+| Repositório de código     | GitHub     |       |
 | Hospedagem do site          | Render     |  |
 | Protótipo Interativo       | MarvelApp  | https://www.figma.com/proto/uQ0EdlGDK7cT2GGH7AHuIC/Wireframe-TI---COMUNIDADE-DE-ARTISTAS-E-PRODUTORES?node-id=15-9&p=f&t=j5LUTP3P8sqqbsBV-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A9   |
 |                             |            |                                                    |
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível. Inclua itens como: (1) Editor de código, (2) )ferramentas de comunicação, (3) )ferramentas de diagramação, (4) )plataformas de hospedagem, entre outras.
 
 ## Gerenciamento do Projeto
 
