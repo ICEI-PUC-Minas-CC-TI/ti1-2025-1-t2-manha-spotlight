@@ -24,64 +24,35 @@ A documentação do projeto é estruturada da seguinte forma:
 
 # Contexto
 
-Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
+Introdução:
+A realização de projetos no campo das artes muitas vezes necessita encontrar um meio termo entre o processo subjetivo da expressão artística criativa e sua viabilidade mercadológica. A entrada no mercado de um artista como um musico ou um fotografo, por exemplo, exige um longo processo não só de formação e capacitação técnica, como também de gerenciamento de networking e publicidade de seu trabalho. 
+Embora hoje esse processo de divulgação seja favorecido pelo uso de mídias sociais, os profissionais dentro do meio de cultura (cantores, músicos, artistas plásticos, cinematógrafos) não tem, muitas vezes, uma fonte fixa de renda e vivem de projetos isolados. Em função disso, a conexão e gerenciamento dos artistas com os produtores no networking e um processo essencial para a manutenção das oportunidades de trabalho e renda.
 
 ## Problema
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
->
-> **Orientações**:
->
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+**✳️✳️✳️ Embora o número de artistas e produtores tenha crescido significativamente nos últimos anos, o mercado cultural ainda enfrenta um desafio persistente: conectar profissionais com objetivos e visões compatíveis. A falta de plataformas adequadas força produtores a gastar tempo em buscas improdutivas e a arcar com riscos financeiros decorrentes de parcerias desalinhadas artisticamente. Paralelamente, artistas encontram dificuldades para localizar colaboradores que realmente entendam seu potencial e necessidades criativas. Esse desencontro gera projetos com resultados aquém do esperado, custos elevados e relações profissionais instáveis. Como consequência, inúmeras oportunidades se perdem no hiato entre a demanda dos produtores e a oferta de talentos artísticos, enfraquecendo todo o ecossistema cultural. ✳️✳️✳️**
 
 ## Objetivos
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
->
-> **Orientações**:
->
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+**✳️✳️✳️ Criar uma plataforma digital que favoreça o processo de conexão entre artistas e produtores. Ao acessar o site, o artista terá acesso a uma serie de projetos em desenvolvimento na sua área, que serão oferecidas pelos produtores. O artista terá a oportunidade de enviar seu portfólio e eventualmente ser contratado, e o produtor por sua vez vai ter no site a facilitação do encontro de mão de obra.
+O site ainda será um meio de comunicação entre os membros do projeto, tendo um chat e um sistema de gerenciamento de grupos e subgrupos que ira facilitar a organização dos projetos dos usuários. 
+ ✳️✳️✳️**
 
 ## Justificativa
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
->
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Orientações**:
->
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
+**✳️✳️✳️ A plataforma preenche uma lacuna crítica no ecossistema cultural, democratizando o acesso a oportunidades e reduzindo assimetrias de informação — fatores essenciais para a profissionalização do setor.
+A ideia de organizar grupos foi também influenciada pela entrevista feita com a produtora e roteirista Sofia Marinho em marco de 2025:
+Uma coisa que me incomoda muito, muito mesmo, nos projetos, é que o meio de comunicação hoje é o WhatsApp, não tem como, né? Todo mundo tem seu WhatsApp. Então, por exemplo, começou um projeto novo, aí vai lá e você cria um grupo da produção, um grupo do som, um grupo da fotografia, um grupo do elenco, um grupo do sei o quê, do mesmo projeto, né? Entendi. Isso é um saco, sabe? Queria que tivesse, em algum momento da nossa vida, uma forma de facilitar essas comunicações.
+(Marinho Sofia, 2025, grifo nosso)
+ ✳️✳️✳️**
+ 
 ## Público-Alvo
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva quais são as pessoas que usarão a sua aplicação indicando os diferentes perfis. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
->
-> **Orientações**:
->
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
-
-# Product Discovery
+**✳️✳️✳️ 
+•	Artistas independentes (músicos, fotógrafos, cineastas, artistas visuais).
+•	Produtores culturais, curadores e gestores de eventos.
+•	Coletivos e equipes criativas em busca de colaborações.
+ ✳️✳️✳️**
 
 ## Etapa de Entendimento
 
@@ -100,22 +71,11 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 ### Personas
 
-**✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
->
-> **Orientações**:
->
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-
-# Product Design
-
-Nesse momento, vamos transformar os insights e validações obtidos em soluções tangíveis e utilizáveis. Essa fase envolve a definição de uma proposta de valor, detalhando a prioridade de cada ideia e a consequente criação de wireframes, mockups e protótipos de alta fidelidade, que detalham a interface e a experiência do usuário.
+**✳️✳️✳️ Persona Artista/Produtor Iniciantes: preciso me conectar a profissionais da minha área, ter visibilidade e um meio que facilite a comunicação para resolver o problema da dificuldade em encontrar produtores, oportunidades e apoio, ocasionado pela falta de uma rede estruturada, pela comunicação ineficaz e pela desvalorização da arte no Brasil.
+Persona Artista e Produtor Iniciantes: preciso de um espaço acessível para divulgar meu trabalho e atrair novos públicos, para resolver o problema da dificuldade de conquistar um público fiel, ocasionado pela falta de conhecimento sobre estratégias de marketing e pela concorrência elevada nas redes sociais.
+Persona Artista e Produtor mais experientes: preciso uma solução eficiente para centralizar e organizar a comunicação nos meus projetos sem depender de múltiplos grupos no WhatsApp, resolver o problema da fragmentação da comunicação, da sobrecarga de informações e da solidão do trabalho artístico, intensificada pelas redes sociais e pela falta de canais específicos para colaboração e troca profissional.
+Persona do Contratante: preciso de um meio que simplifique a busca por artistas e produtores confiáveis e diversificados, com um sistema de portfólio e avaliação integrado, resolver o problema da dificuldade de expandir minha rede de contatos e encontrar profissionais adequados, causado pela ausência de um banco de talentos estruturado e pela informalidade no processo de contratação.
+ ✳️✳️✳️**
 
 ## Histórias de Usuários
 
