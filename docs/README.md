@@ -9,6 +9,9 @@ Informações básicas do projeto.
   * [Ana Julia Santos Leite](https://github.com/AnaJuliaSantosLeitos)
   * [Filipe Totaro Bruekers](https://github.com/lipebrks)
   * [Gabriel Teodoro Gomes](https://github.com/GabrielTeodoruh)
+  * [Guilherme Mafort Starling](https://github.com/guiMafort)
+  * [Pedro Lucas Magnani](https://github.com/plmagnani)
+  
 
 A documentação do projeto é estruturada da seguinte forma:
 
@@ -203,11 +206,7 @@ Estes são os protótipos de telas do sistema.
 
 **✳️✳️✳️ COLOQUE AQUI UM IFRAME COM SEU PROTÓTIPO INTERATIVO ✳️✳️✳️**
 
-✅ [Protótipo Interativo (MarvelApp)](https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false)  ⚠️ EXEMPLO ⚠️
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Um protótipo interativo apresenta o projeto de interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse lidando com o software pronto. Utilize as mesmas ferramentas de construção de wireframes para montagem do seu protótipo interativo. Inclua o link para o protótipo interativo do projeto.
+✅ [Protótipo Interativo (Figma)](https://www.figma.com/proto/uQ0EdlGDK7cT2GGH7AHuIC/Wireframe-TI---COMUNIDADE-DE-ARTISTAS-E-PRODUTORES?node-id=15-9&p=f&t=j5LUTP3P8sqqbsBV-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A9)
 
 # Metodologia
 
@@ -219,10 +218,10 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 
 | Ambiente                    | Plataforma | Link de acesso                                     |
 | --------------------------- | ---------- | -------------------------------------------------- |
-| Processo de Design Thinking | Miro       | https://miro.com/XXXXXXX ⚠️ EXEMPLO ⚠️        |
+| Processo de Design Thinking | Miro       | https://miro.com/welcomeonboard/dDNEVEMyQ21FeFZuK1RRZzFleldqQnYrWDlUWTIzbmtVTDlCaWJnNU04SHBQK1dNU0ZwZ3BRTXl0dFZSdkVwR04yZTFTQjZTT2kya0FWQUJ4S05wVVR5Vi8yamtSUkdNNHF1ME5zYVhpQTNlSHUxVDNjOHFJVTV1dUNiZEpQU0JBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=269687455722       |
 | Repositório de código     | GitHub     | https://github.com/XXXXXXX ⚠️ EXEMPLO ⚠️      |
-| Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
-| Protótipo Interativo       | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
+| Hospedagem do site          | Render     |  |
+| Protótipo Interativo       | MarvelApp  | https://www.figma.com/proto/uQ0EdlGDK7cT2GGH7AHuIC/Wireframe-TI---COMUNIDADE-DE-ARTISTAS-E-PRODUTORES?node-id=15-9&p=f&t=j5LUTP3P8sqqbsBV-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A9   |
 |                             |            |                                                    |
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
