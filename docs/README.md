@@ -71,10 +71,12 @@ Uma coisa que me incomoda muito, muito mesmo, nos projetos, é que o meio de com
 
 ### Personas
 
-**✳️✳️✳️ - Rafael (Persona do Artista e Produtor iniciante)
+**✳️✳️✳️ 
+- Rafael (Persona do Artista e Produtor iniciante)
 - Matheus (Persona do Artista e Produtor mais experiente)
 - Fernanda Oliveira (Persona do Contratante)
-- ArtLink (Persona da Plataforma/Site/App) ✳️✳️✳️**
+- ArtLink (Persona da Plataforma/Site/App)
+- ✳️✳️✳️**
 
 ## Histórias de Usuários
 
@@ -95,9 +97,13 @@ Aqui está a tabela formatada com as informações das personas:
 
 **✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
 
-##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
+##### Proposta para Persona 1 
 
-![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
+![Proposta 1](images/proposta1.png)
+
+##### Proposta para Persona 2
+
+![Proposta 1](images/proposta2.png)
 
 Aqui está a tabela formatada conforme solicitado:
 
