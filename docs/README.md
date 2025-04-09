@@ -216,13 +216,7 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 
 Divisão de papéis no grupo e apresentação da estrutura da ferramenta de controle de tarefas (Kanban).
 
-![Exemplo de Kanban](images/exemplo-kanban.png)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+![Exemplo de Kanban](images/kanban.png)
 
 # Solução Implementada
 
