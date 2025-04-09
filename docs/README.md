@@ -103,27 +103,37 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 ![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O mapa da proposta de valor é uma ferramenta que nos ajuda a definir qual tipo de produto ou serviço melhor atende às personas definidas anteriormente.
-
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Aqui está a tabela formatada conforme solicitado:
 
 ### Requisitos Funcionais
 
-| ID     | Descrição do Requisito                                   | Prioridade |
-| ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Permitir que o usuário cadastre tarefas ⚠️ EXEMPLO ⚠️ | ALTA       |
-| RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ | MÉDIA     |
+| ID     | Descrição do Requisito                                                                                     | Prioridade |
+| ------ | ------------------------------------------------------------------------------------------------------------ | ---------- |
+| RF-001 | Permitir a criação de dois tipos de conta: artista/produtor e contratante, com ferramentas diferenciadas     | ALTA       |
+| RF-002 | Permitir que contratantes criem eventos para que artistas/produtores acessem informações e se inscrevam     | ALTA       |
+| RF-003 | Exigir envio de portfólio quando artistas/produtores se inscrevem em eventos                                | MÉDIA      |
+| RF-004 | Permitir filtragem de locais de trabalho para análise de infraestrutura antes de aceitar propostas           | MÉDIA      |
+| RF-005 | Oferecer múltiplos canais de comunicação entre usuários para organização de projetos                        | ALTA       |
+| RF-006 | Permitir criação de comunidade para interação, compartilhamento de ideias e networking profissional          | BAIXA      |
+| RF-007 | Disponibilizar perfil do usuário como portfólio digital com informações e trabalhos                         | ALTA       |
+| RF-008 | Permitir vinculação de perfis a plataformas externas (ex: Spotify) para adição de álbuns ao portfólio        | MÉDIA      |
+| RF-009 | Permitir categorização de usuários com tags personalizáveis para facilitar buscas                           | MÉDIA      |
+| RF-010 | Implementar sistema de avaliação de artistas/produtores por contratantes após eventos                       | ALTA       |
+| RF-011 | Fornecer estatísticas de desempenho para artistas/produtores (eventos realizados, feedbacks recebidos)      | BAIXA      |
 
 ### Requisitos não Funcionais
 
-| ID      | Descrição do Requisito                                                              | Prioridade |
-| ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel ⚠️ EXEMPLO ⚠️ | MÉDIA     |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s ⚠️ EXEMPLO ⚠️          | BAIXA      |
+| ID      | Descrição do Requisito                                                                 | Prioridade |
+| ------- | ---------------------------------------------------------------------------------------- | ---------- |
+| RNF-001 | A plataforma deve ser responsiva (mobile, tablet, desktop)                              | ALTA       |
+| RNF-002 | Desenvolvimento utilizando HTML e CSS, com disponibilização via GitHub                   | ALTA       |
+
+### Restrições do Projeto
+
+| ID     | Descrição da Restrição                                                                 |
+| ------ | ---------------------------------------------------------------------------------------- |
+| RES-001| Dificuldades técnicas na integração com plataformas externas (dependência de APIs)       |
+| RES-002| Tempo de manutenção elevado devido à complexidade de filtros, ferramentas e ajustes      |
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
