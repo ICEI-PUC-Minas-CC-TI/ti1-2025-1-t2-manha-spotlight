@@ -155,11 +155,29 @@ Estes são os protótipos de telas do sistema.
 
 **✳️✳️✳️ Wireframe ✳️✳️✳️**
 
-##### TELA Principal ⚠️ EXEMPLO ⚠️
-
-Tela Principal
+##### Tela Principal
 
 ![Tela Principal](images/TelaPrincipal.png)
+
+##### Tela do Cadastro
+
+![Tela do Cadastro](images/TelaDoCadastro.png)
+
+##### Tela do Login
+
+![Tela do Login](images/TelaDoLogin.png)
+
+##### Tela do Chat
+
+![Tela do Chat](images/TelaDoChat.png)
+
+##### Tela do Perfil
+
+![Tela do Perfil](images/TelaDoPerfil.png)
+
+##### Tela dos Detalhes
+
+![Tela dos Detalhes](images/TelaDosDetalhes.png)
 
 ### User Flow
 
