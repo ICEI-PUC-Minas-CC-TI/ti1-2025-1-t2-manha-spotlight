@@ -1,0 +1,27 @@
+{
+  "name": "spotlight-app",
+  "version": "1.0.0",
+  "description": "Aplicação de gerenciamento de projetos em grupo",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db/db.json --port 3000",
+    "dev": "live-server public --port=5500 --open=index.html",
+    "serve": "concurrently \"npm run start\" \"npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spotlight",
+    "grupos",
+    "projetos"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1",
+    "json-server": "^1.0.0-beta.3",
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
+}
