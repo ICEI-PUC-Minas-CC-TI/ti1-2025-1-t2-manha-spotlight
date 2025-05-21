@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="organizacao-caixas-iniciais">
+        <div class="caixa-inicial" data-grupo="alpha">
+            <img src="bolo.png" alt="Grupo Alpha">
+        </div>
+        <div class="caixa-inicial" data-grupo="beta">
+            <img src="bolo.png" alt="Grupo Beta">
+        </div>
+        <div class="caixa-inicial" data-grupo="gamma">
+            <img src="bolo.png" alt="Grupo Gamma">
+        </div>
+    </div>
+
+    <div id="sobreposicao" class="sobreposicao-oculta">
+        <div class="conteudo-sobreposicao">
+            <button id="btnFecharSobreposicao">&times; Fechar</button>
+            <aside class="barra-lateral">
+                <h1>GRUPOS</h1>
+                <button class="btnChat">Chat 1</button>
+                <button class="btnChat">Chat 2</button>
+                <button class="btnChat">Chat 3</button>
+                <button class="btnChat">Chat 4</button>
+                <button class="btnFavoritar">Favoritar</button>
+            </aside>
+            <main class="detalhes-evento">
+                <div class="img-evento">
+                    <img id="sobreposicao-img" src="bolo.png" alt="Imagem do Evento">
+                </div>
+                <div class="caixa-descricao">
+                    <h2 id="nome-grupo">Nome do Grupo</h2>
+                    <p id="descricao">Descrição detalhada do grupo e do evento.</p>
+                </div>
+                <div id="contador">
+                </div>
+                <div class="caixa-inscricao">
+                    <button class="btnInscricao">Inscrever-se</button>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

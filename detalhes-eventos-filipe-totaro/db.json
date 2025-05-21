@@ -1,0 +1,28 @@
+{
+  "eventos": [
+    {
+      "id": 1,
+      "imgCaixaInicial": "arte_galeria_detalhe.png",
+      "imgSobreposicao": "arte_galeria_detalhe.png",
+      "nomeGrupo": "Exposição 'Cores Urbanas'",
+      "descricaoEvento": "Uma imersão na arte contemporânea com foco em grafites e instalações. Descubra como a cidade se transforma em tela e voz para artistas locais e internacionais. Um evento imperdível para amantes da arte urbana.",
+      "dataEvento": "2025-06-15T18:30:00"
+    },
+    {
+      "id": 2,
+      "imgCaixaInicial": "show_rock_detalhe.png",
+      "imgSobreposicao": "show_rock_detalhe.png",
+      "nomeGrupo": "Rock In Lab - Edição 2025",
+      "descricaoEvento": "Prepare-se para uma noite de pura energia com as melhores bandas de rock underground. Palco principal e áreas de food truck garantem a experiência completa para os fãs de um bom som e adrenalina. Não fique de fora!",
+      "dataEvento": "2025-07-20T21:00:00"
+    },
+    {
+      "id": 3,
+      "imgCaixaInicial": "feira_livro_detalhe.png",
+      "imgSobreposicao": "feira_livro_detalhe.png",
+      "nomeGrupo": "Feira do Livro e Cafés Literários",
+      "descricaoEvento": "Venha mergulhar no mundo da literatura! Encontre seus autores favoritos, participe de sessões de autógrafos e desfrute de cafés literários com debates e leituras. Um paraíso para leitores de todas as idades.",
+      "dataEvento": "2025-08-05T10:00:00"
+    }
+  ]
+}
