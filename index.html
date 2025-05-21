@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro de Grupo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h2>Cadastro de Grupo</h2>
+    <form id="groupForm">
+      <div class="row">
+        <div class="input-group">
+          <label for="groupName">Nome do Grupo:</label>
+          <input type="text" id="groupName" name="groupName" required />
+        </div>
+
+        <div class="avatar-container">
+          <input type="file" id="groupImage" accept="image/*" hidden />
+          <label for="groupImage">
+            <img id="imagePreview" class="avatar" src="assets\avatar-15.png"/>
+          </label>
+        </div>
+      </div>
+
+      <label for="groupDescription">Descrição:</label>
+      <textarea id="groupDescription" name="groupDescription" required></textarea>
+
+      <div id="channelsContainer">
+        <label>Canais:</label>
+        <div id="channelFields"></div>
+      </div>
+
+      <div class="button-row">
+        <button type="submit">Criar Grupo</button>
+        <button type="button" id="addChannelBtn">Adicionar Canal</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
