@@ -1,0 +1,16 @@
+a.text-danger-hover:hover h5.card-title {
+    text-decoration: underline;
+    color: #dc3545;
+}
+
+
+.card-text {
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.3;        /* Espaçamento entre linhas (1.5 é o padrão) */
+    margin-bottom: 0.2rem;   
+    font-size: 0.9rem;       /* Tamanho da fonte */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
