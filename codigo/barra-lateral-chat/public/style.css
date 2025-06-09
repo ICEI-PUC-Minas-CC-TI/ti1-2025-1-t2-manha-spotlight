@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.cabecalho {
+    background-color: #2e2e2e;
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cabecalho h1 {
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.container-principal {
+    display: flex;
+    flex: 1;
+}
+
+.barra-lateral {
+    background-color: #4c4c4c;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-right: 1px solid #2e2e2e;
+    position: relative;
+}
+
+.cabecalho-barra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid #6f6f6f;
+}
+
+.cabecalho-barra h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.botao-adicionar-container {
+    padding: 1rem;
+    text-align: center;
+}
+
+#novoGrupoBtn {
+    background: #2e2e2e;
+    color: white;
+    border: none;
+    border-radius: 15%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 1rem;
+}
+
+#novoGrupoBtn:hover {
+    background: #6f6f6f;
+}
+
+.grupo-lista {
+    list-style: none;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.grupo-item {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-bottom: 1px solid #6f6f6f;
+}
+
+.grupo-item:hover {
+    background: #6f6f6f;
+}
+
+.grupo-item.ativo {
+    background: #2e2e2e;
+}
+
+.grupo-icone {
+    width: 40px;
+    height: 40px;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    background-color: #2e2e2e;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grupo-info {
+    flex: 1;
+}
+
+.grupo-nome {
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.grupo-ultima-msg {
+    font-size: 0.8rem;
+    color: #bdc3c7;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.area-conversa {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #6f6f6f;
+}
+
+.conversa-vazia {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #bdc3c7;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cabecalho-conversa {
+    background-color: #4c4c4c;
+    color: white;
+    padding: 1rem;
+    border-bottom: 1px solid #5a5a5a;
+}
+
+.cabecalho-conversa h2 {
+    font-size: 1.3rem;
+}
+
+.mensagens {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.mensagem {
+    background-color: #4c4c4c;
+    color: white;
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+.mensagem-vazia {
+    text-align: center;
+    color: #bdc3c7;
+    padding: 2rem;
+}
+
+.detalhes-msg {
+    font-size: 0.7rem;
+    color: #bdc3c7;
+    margin-top: 0.3rem;
+}
+
+.enviar-mensagem {
+    display: flex;
+    padding: 1rem;
+    background-color: #4c4c4c;
+    border-top: 1px solid #5a5a5a;
+}
+
+.enviar-mensagem input {
+    flex: 1;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 20px;
+    background-color: #5a5a5a;
+    color: white;
+}
+
+.enviar-mensagem button {
+    background-color: #2e2e2e;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.enviar-mensagem button:hover {
+    background-color: #3e3e3e;
+}
+
+footer {
+    background: #2e2e2e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+.sem-grupos, .erro {
+    padding: 1rem;
+    text-align: center;
+    color: #bdc3c7;
+}
+
+@media (max-width: 768px) {
+    .barra-lateral {
+        width: 100%;
+        height: auto;
+    }
+    
+    .container-principal {
+        flex-direction: column;
+    }
+    
+    .cabecalho-barra {
+        padding: 1rem;
+    }
+    
+    .cabecalho h1 {
+        font-size: 1.5rem;
+    }
+}

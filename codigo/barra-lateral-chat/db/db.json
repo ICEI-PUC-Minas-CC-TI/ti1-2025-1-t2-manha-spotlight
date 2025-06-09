@@ -1,0 +1,114 @@
+{
+  "grupos": [
+    {
+      "id": 1,
+      "nome": "Luz e Sombras",
+      "ultimaMsg": "João: Novas fotos adicionadas",
+      "icone": "LS",
+      "mensagens": [
+        {
+          "id": 1,
+          "remetente": "João",
+          "texto": "Novas fotos adicionadas",
+          "hora": "10:30",
+          "data": "2023-06-15"
+        },
+        {
+          "id": 2,
+          "remetente": "Maria",
+          "texto": "Vou dar uma olhada!",
+          "hora": "10:45",
+          "data": "2023-06-15"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Pinceladas Urbanas",
+      "ultimaMsg": "Maria: Exposição confirmada",
+      "icone": "PU",
+      "mensagens": [
+        {
+          "id": 1,
+          "remetente": "Maria",
+          "texto": "Exposição confirmada para o dia 25",
+          "hora": "14:20",
+          "data": "2023-06-14"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Esculturas Efêmeras",
+      "ultimaMsg": "Julia: Materiais encomendados",
+      "icone": "EE",
+      "mensagens": [
+        {
+          "id": 1,
+          "remetente": "Julia",
+          "texto": "Materiais encomendados",
+          "hora": "09:15",
+          "data": "2023-06-16"
+        },
+        {
+          "id": 2,
+          "remetente": "Carlos",
+          "texto": "Chegam quando?",
+          "hora": "09:30",
+          "data": "2023-06-16"
+        },
+        {
+          "id": 3,
+          "remetente": "Julia",
+          "texto": "Na próxima terça",
+          "hora": "09:32",
+          "data": "2023-06-16"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Retratos em Movimento",
+      "ultimaMsg": "Mateus: Edição finalizada",
+      "icone": "RM",
+      "mensagens": [
+        {
+          "id": 1,
+          "remetente": "Mateus",
+          "texto": "Edição finalizada",
+          "hora": "16:45",
+          "data": "2023-06-13"
+        },
+        {
+          "id": 2,
+          "remetente": "Ana",
+          "texto": "Manda o link para revisão",
+          "hora": "16:50",
+          "data": "2023-06-13"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Cores da Cidade",
+      "ultimaMsg": "Pedro: Localização definida",
+      "icone": "CC",
+      "mensagens": [
+        {
+          "id": 1,
+          "remetente": "Pedro",
+          "texto": "Localização definida no centro cultural",
+          "hora": "11:10",
+          "data": "2023-06-17"
+        },
+        {
+          "id": 2,
+          "remetente": "Luiza",
+          "texto": "Perfeito! Que horas?",
+          "hora": "11:15",
+          "data": "2023-06-17"
+        }
+      ]
+    }
+  ]
+}
