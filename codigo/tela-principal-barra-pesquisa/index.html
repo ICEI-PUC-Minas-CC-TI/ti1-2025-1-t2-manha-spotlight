@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotlight</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+  <header class="bg-dark text-warning py-4" >
+    <div class="container d-flex justify-content-between align-items-start">
+      <h1 class="display-4 mb-0">Spotlight</h1>
+
+      <div class="input-group input-group mt-3 mb-3" style="width: 400px;" >   <!-- barra de pesquisa -->
+        <input type="text" class="form-control border-0 py-2" id="campo-busca" placeholder="Pesquisar..."> 
+        <button type="button" class="btn btn-warning border-0 py-2" type="button" id="botao-busca">Buscar</button>
+      </div>
+
+      <a href="perfil.html" class="text-warning fs-3 mt-3"> 
+        <i class="fas fa-user-circle fa-2x"></i> <!-- Ícone de perfil do Font Awesome -->
+      </a>
+    </div>
+  </header>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="col-md-3 bg-dark bg-opacity-50">
+
+        <p>Aqui vai ficar o menu, que ocupa md-3 espaco na coluna da pagina, cerca de 25%, os outros 75% sao para o main
+          que e md-9</p>
+
+      </aside>
+
+      <main class="col-md-9 bg-light bg-opacity-50 p-4">
+        <section aria-labelledby="Editais" class="mb-4">
+          <div class="container">
+            <h2 id="Editais" class="h1 text-uppercase text-muted mb-3 fw-bold">
+              Novos Editais
+            </h2>
+            <!-- Linha decorativa -->
+            <div class="border-bottom border-1 border-secondary mb-4"></div>
+          </div>
+
+          <!-- Container dos Cards  -->
+          <div class="row g-3" id="Editais-container"></div>
+        </section>
+      </main>
+    </div>
+    <footer class="bg-dark text-white py-3">
+      <div class="container text-center">
+        <p>&copy; 2025 Spotlight</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Jquery e Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JS arquivo scripts -->
+  <script src="scripts.js"></script>
+  <script>
+
+
+
+  </script>
+</body>
+
+</html>
