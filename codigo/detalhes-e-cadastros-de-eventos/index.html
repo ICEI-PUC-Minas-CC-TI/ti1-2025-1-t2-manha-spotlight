@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotlight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-botoes">
+        <h1>Eventos de Artistas</h1>
+        <a href="cadastroEvento.html" class="btn-principal">Cadastrar Novo Evento</a>
+    </header>
+
+    <main class="organizacao-caixas-iniciais" id="listaEventos">
+    </main>
+
+    <div id="sobreposicao">
+        <div class="conteudo-sobreposicao">
+            <button id="btnFecharSobreposicao">X</button>
+
+            <div class="barra-lateral">
+                <h1 id="nomeGrupoSobreposicao"></h1>
+                <button id="btnFavoritar" class="btnFavoritar">Favoritar</button>
+                <button id="btnAgendar">Agendar Evento</button>
+                <p id="contadorRegressivo"></p>
+                <button id="btnChatGrupo">Chat do Grupo</button>
+                <button id="btnNotificacoes">Notificações</button>
+            </div>
+
+            <div class="detalhes-evento">
+                <div class="img-evento">
+                    <img id="imgEventoSobreposicao" src="" alt="Imagem do Evento">
+                </div>
+                <div class="caixa-descricao">
+                    <h2>Descrição do Evento</h2>
+                    <p id="descricaoEventoSobreposicao"></p>
+                </div>
+                <div class="caixa-inscricao">
+                    <button id="btnInscricao" class="btnInscricao">Inscrever-se</button>
+                </div>
+
+                <div class="botoes-edicao-exclusao">
+                    <button id="btnEditar" class="btn-acao">Editar</button>
+                    <button id="btnExcluir" class="btn-acao btn-perigo">Excluir</button>
+                </div>
+
+                <div id="formularioEdicaoContainer" class="oculto">
+                    <h3>Editar Evento</h3>
+                    <form id="formEdicaoEvento">
+                        <input type="hidden" id="editarEventoId">
+                        <div class="form-grupo">
+                            <label for="editarNomeGrupo">Nome do Grupo/Artista:</label>
+                            <input type="text" id="editarNomeGrupo" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="editarDescricaoEvento">Descrição do Evento:</label>
+                            <textarea id="editarDescricaoEvento" rows="4" required></textarea>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="editarDataEvento">Data e Hora do Evento:</label>
+                            <input type="datetime-local" id="editarDataEvento" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="editarImgCaixaInicial">URL da Imagem da Caixa Inicial:</label>
+                            <input type="url" id="editarImgCaixaInicial">
+                        </div>
+                        <div class="form-grupo">
+                            <label for="editarImgSobreposicao">URL da Imagem de Detalhe:</label>
+                            <input type="url" id="editarImgSobreposicao">
+                        </div>
+                        <div>
+                            <button type="submit" id="btnSalvarEdicao">Salvar Alterações</button>
+                            <button type="button" id="btnCancelarEdicao" class="btn-cancelar">Cancelar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

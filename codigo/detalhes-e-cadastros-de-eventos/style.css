@@ -1,0 +1,447 @@
+/*Geral - Início*/
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Geral - Final*/
+
+
+/*Estilos da Página Principal (index.html) - Início*/
+
+.organizacao-caixas-iniciais {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.caixa-inicial {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.caixa-inicial img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Estilos da Página Principal (index.html) - Final*/
+
+
+/*Botões e Cabeçalhos Globais - Início*/
+
+.header-botoes {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-botoes h1 {
+    margin: 0;
+    color: #333;
+}
+
+
+.btn-principal {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-principal:hover {
+    background-color: #218838;
+}
+
+.btn-secundario {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secundario:hover {
+    background-color: #0056b3;
+}
+
+/*Botões e Cabeçalhos Globais - Final*/
+
+
+/*Estilos da Sobreposição de Detalhes do Evento - Início*/
+
+#sobreposicao {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+#sobreposicao.overlay-visible {
+    display: flex;
+}
+
+.conteudo-sobreposicao {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 800px;
+    max-height: 90%;
+    overflow: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+#btnFecharSobreposicao {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.conteudo-sobreposicao .barra-lateral {
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.conteudo-sobreposicao .barra-lateral h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+}
+
+.conteudo-sobreposicao .barra-lateral button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    background-color: #ddd;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.conteudo-sobreposicao .barra-lateral button:hover {
+    background-color: #ccc;
+}
+
+.conteudo-sobreposicao .btnFavoritar {
+    background-color: #fdd;
+    color: #d33;
+}
+
+.conteudo-sobreposicao .btnFavoritar:hover {
+    background-color: #ecc;
+}
+
+.conteudo-sobreposicao .detalhes-evento {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 15px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.conteudo-sobreposicao .detalhes-evento .img-evento {
+    grid-column: 1 / 4;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.conteudo-sobreposicao .detalhes-evento .img-evento img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.conteudo-sobreposicao .detalhes-evento .caixa-descricao {
+    grid-column: 1 / 3;
+}
+
+.conteudo-sobreposicao .detalhes-evento h2 {
+    font-size: 1.3em;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.conteudo-sobreposicao .detalhes-evento p {
+    line-height: 1.4;
+    color: #555;
+    font-size: 0.95em;
+}
+
+.conteudo-sobreposicao .detalhes-evento .caixa-inscricao {
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-sobreposicao .btnInscricao {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.conteudo-sobreposicao .btnInscricao:hover {
+    background-color: #0056b3;
+}
+
+.botoes-edicao-exclusao {
+    grid-column: 1 / 4;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-acao {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    background-color: #ffc107;
+    color: #333;
+    transition: background-color 0.3s ease;
+    flex-grow: 1;
+}
+
+.btn-acao:hover {
+    background-color: #e0a800;
+}
+
+.btn-perigo {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-perigo:hover {
+    background-color: #c82333;
+}
+
+#formularioEdicaoContainer {
+    grid-column: 1 / 4;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+#formEdicaoEvento .form-grupo {
+    margin-bottom: 15px;
+}
+
+#formEdicaoEvento label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+#formEdicaoEvento input[type="text"],
+#formEdicaoEvento input[type="datetime-local"],
+#formEdicaoEvento textarea,
+#formEdicaoEvento input[type="url"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#formEdicaoEvento textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+#formEdicaoEvento button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+#btnSalvarEdicao {
+    background-color: #007bff;
+    color: white;
+}
+
+#btnSalvarEdicao:hover {
+    background-color: #0056b3;
+}
+
+.btn-cancelar {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-cancelar:hover {
+    background-color: #5a6268;
+}
+
+/*Estilos da Sobreposição de Detalhes do Evento - Final*/
+
+
+/*Estilos da Página de Cadastro (cadastroEvento.html) - Início*/
+
+/* Estilos para centralizar o conteúdo na página de cadastro */
+body.cadastro-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container-cadastro {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.header-cadastro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.header-cadastro h2 {
+    margin: 0;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="url"],
+.form-group input[type="datetime-local"],
+.form-group textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.container-cadastro button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container-cadastro button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+#mensagemStatus {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sucesso {
+    color: green;
+}
+
+.erro {
+    color: red;
+}
+
+/*Estilos da Página de Cadastro (cadastroEvento.html) - Final*/
+
+
+/*Utilitários - Início*/
+
+.oculto {
+    display: none;
+}
+
+/*Utilitários - Final*/

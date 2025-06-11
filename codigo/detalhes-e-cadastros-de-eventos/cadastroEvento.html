@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Novo Evento </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="cadastro-page">
+    <main class="container-cadastro">
+        <header class="header-cadastro">
+            <h2>Cadastrar Novo Evento</h2>
+            <a href="index.html" class="btn-secundario">Voltar para a Tela Principal</a>
+        </header>
+
+        <form id="formCadastroEvento">
+            <div class="form-group">
+                <label for="nomeGrupo">Nome do Grupo/Artista:</label>
+                <input type="text" id="nomeGrupo" required>
+            </div>
+
+            <div class="form-group">
+                <label for="descricaoEvento">Descrição do Evento:</label>
+                <textarea id="descricaoEvento" rows="4" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="dataEvento">Data e Hora do Evento:</label>
+                <input type="datetime-local" id="dataEvento" required>
+            </div>
+
+            <div class="form-group">
+                <label for="imgCaixaInicial">URL da Imagem da Caixa Inicial:</label>
+                <input type="url" id="imgCaixaInicial">
+            </div>
+
+            <div class="form-group">
+                <label for="imgSobreposicao">URL da Imagem de Detalhe:</label>
+                <input type="url" id="imgSobreposicao">
+            </div>
+
+            <button type="submit">Cadastrar Evento</button>
+        </form>
+
+        <p id="mensagemStatus"></p>
+    </main>
+
+    <script src="scriptCadastro.js"></script>
+</body>
+
+</html>
