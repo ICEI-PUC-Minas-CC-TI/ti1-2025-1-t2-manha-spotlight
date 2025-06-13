@@ -1,0 +1,9 @@
+{
+  "username": "João Silva",
+  "bio": "Sou músico e pintor apaixonado pela arte em todas as suas formas.",
+  "image": "https://example.com/fotos/joao-silva.jpg",
+  "tags": [
+    "Músico",
+    "Pintor"
+  ]
+}
