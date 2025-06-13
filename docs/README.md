@@ -10,7 +10,6 @@ Informações básicas do projeto.
   * [Filipe Totaro Bruekers](https://github.com/lipebrks)
   * [Gabriel Teodoro Gomes](https://github.com/GabrielTeodoruh)
   * [Guilherme Mafort Starling](https://github.com/guiMafort)
-  * [Pedro Lucas Magnani](https://github.com/plmagnani)
   
 
 A documentação do projeto é estruturada da seguinte forma:
