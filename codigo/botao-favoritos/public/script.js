@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const btnFavoritar = document.querySelector('.btnFavoritar');
     let currentEditalId = null;
 
-    const searchInput = document.getElementById('searchInput');
-    const searchButton = document.getElementById('searchButton');
+    const searchInput = document.getElementById('campo-busca');  //alterei o nome do search e do button pra corresponder ao minha barra de pesquisa
+    const searchButton = document.getElementById('botao-busca');
     const searchInputContainer = searchInput.closest('.input-group').parentNode;
     const searchSuggestions = document.createElement('ul');
     searchSuggestions.id = 'searchSuggestions';

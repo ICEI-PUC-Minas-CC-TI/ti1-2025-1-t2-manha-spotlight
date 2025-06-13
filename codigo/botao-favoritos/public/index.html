@@ -10,23 +10,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-light">
+<body class="bg-light"> <!--- alterei pro meu header-->
     <header class="bg-dark text-warning py-4">
-        <div class="container d-flex justify-content-between align-items-center">
-            <h1 class="display-4 mb-0">Spotlight</h1>
+      <div class="container d-flex justify-content-between align-items-start">
+      <h1 class="display-4 mb-0">Spotlight</h1>
 
-            <div class="search-bar-header mx-3 flex-grow-1" style="max-width: 400px;">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Pesquisar notícias..." id="searchInput">
-                    <button class="btn btn-outline-warning" type="button" id="searchButton">
-                        <i class="fas fa-search"></i>
-                    </button>
-                </div>
-            </div>
-            <a href="perfil.html" class="text-warning fs-3">
-                <i class="fas fa-user-circle fa-2x"></i>
-            </a>
-        </div>
+      <div class="input-group input-group mt-3 mb-3" style="width: 400px;" >   <!-- barra de pesquisa -->
+        <input type="text" class="form-control border-0 py-2" id="campo-busca" placeholder="Pesquisar..."> 
+        <button type="button" class="btn btn-warning border-0 py-2" type="button" id="botao-busca">Buscar</button>
+      </div>
+
+      <a href="perfil.html" class="text-warning fs-3 mt-3"> 
+        <i class="fas fa-user-circle fa-2x"></i> <!-- Ícone de perfil do Font Awesome -->
+      </a>
+    </div>
     </header>
 
     <div class="container-fluid">
@@ -43,13 +40,13 @@
                         </h2>
                         <div class="border-bottom border-1 border-secondary mb-4"></div>
                     </div>
-                    <div class="row g-3" id="noticias-container"></div>
+                    <div class="row g-3" id="noticias-container"></div> <!---aqui vai ser preenchido os cards-->
                 </section>
             </main>
         </div>
     </div>
 
-    <div id="sobreposicao" class="sobreposicao-oculta">
+    <div id="sobreposicao" class="sobreposicao-oculta"> <!--- parte da sobreposicao comeca aqui-->
         <div class="conteudo-sobreposicao">
             <button id="btnFecharSobreposicao">&times; Fechar</button>
             <aside class="barra-lateral">
