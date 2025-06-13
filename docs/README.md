@@ -3,7 +3,7 @@
 Informações básicas do projeto.
 
 * **Projeto:** Spotlight
-* **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
+* **Repositório GitHub:** https://github.com/ICEI-PUC-Minas-CC-TI/ti1-2025-1-t2-manha-spotlight.git
 * **Membros da equipe:**
 
   * [Ana Julia Santos Leite](https://github.com/AnaJuliaSantosLeitos)
