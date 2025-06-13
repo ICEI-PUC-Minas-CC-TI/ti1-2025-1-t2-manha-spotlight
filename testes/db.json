@@ -1,0 +1,62 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "Edital de Arte Urbana - Grafiteiros e Ilustradores",
+      "imagem": "https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+      "destaque": true,
+      "autor": "Secretaria Municipal de Cultura",
+      "data": "20/05/2025",
+      "local": "Centro Cultural",
+      "texto": "Inscrições abertas para artistas urbanos participarem da revitalização do corredor cultural da cidade. Valor total do edital: R$ 120.000 distribuídos entre 15 selecionados. Prazo até 30/06."
+    },
+    {
+      "id": 2,
+      "titulo": "Festival de Música Independente",
+      "imagem": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+      "destaque": true,
+      "autor": "Associação de Músicos Livres",
+      "data": "10/07/2025",
+      "local": "Parque das Artes",
+      "texto": "Chamada para bandas e artistas solo se apresentarem no maior festival de música alternativa da região. Inscrições gratuitas até 15/06. Cacheê de R$ 2.500 por apresentação."
+    },
+    {
+      "id": 3,
+      "titulo": "Concurso de Ilustração Digital",
+      "imagem": "https://images.unsplash.com/photo-1565201053376-de8b6fd6aa66?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+      "destaque": false,
+      "autor": "Galeria Pixel",
+      "data": "05/06/2025",
+      "local": "Online",
+      "texto": "Edital com premiação de R$ 15.000 para ilustradores digitais. Tema livre, com foco em técnicas inovadoras. Entrega de portfólio até 25/05."
+    }
+  ],
+  "grupos": [
+    {
+      "id": 1,
+      "nome": "Desenvolvimento Web",
+      "ultimaMsg": "HTML e CSS finalizados!",
+      "icone": "DW",
+      "mensagens": [
+        { "remetente": "Alice", "texto": "Bom dia, pessoal!", "data": "10/06/2025", "hora": "09:00" },
+        { "remetente": "Bob", "texto": "Conseguiram revisar o layout?", "data": "10/06/2025", "hora": "09:15" }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Marketing Digital",
+      "ultimaMsg": "Campanha de lançamento pronta.",
+      "icone": "MD",
+      "mensagens": [
+        { "remetente": "Carlos", "texto": "Resultados do último anúncio são promissores.", "data": "09/06/2025", "hora": "14:30" }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Design Gráfico",
+      "ultimaMsg": "Nova paleta de cores aprovada.",
+      "icone": "DG",
+      "mensagens": []
+    }
+  ]
+}
