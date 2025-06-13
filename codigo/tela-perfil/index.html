@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perfil Artista</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="profile-card">
+    <div class="profile-header">
+      <div class="profile-pic">
+        <img id="profileImage" src="avatar-15.png"/>
+        <label for="uploadPhoto" class="edit-photo-label hidden">+</label>
+        <input type="file" id="uploadPhoto" accept="image/*"/>
+
+        <div class="buttons">
+          <button id="editButton" class="edit-button">Editar Perfil</button>
+          <button id="saveButton" class="save-button hidden">Salvar</button>
+          <button id="cancelButton" class="cancel-button hidden">Cancelar</button>
+        </div>
+      </div>
+
+      <div class="profile-info">
+        <h2 id="usernameDisplay">Nome...</h2>
+        <input type="text" id="usernameInput" class="hidden" />
+
+        <p id="bioDisplay">Descrição...</p>
+        <textarea id="bioInput" class="hidden" rows="3"></textarea>
+      </div>
+    </div>
+
+    <div class="tags">
+      <h3>Tags:</h3>
+      <div class="tag-list" id="tagList"></div>
+
+      <div class="add-tag hidden" id="addTagContainer">
+        <select id="newTagSelect">
+          <option value="">Selecionar tag:</option>
+          <option value="Músico">Músico</option>
+          <option value="Pintor">Pintor</option>
+          <option value="Desenhista">Desenhista</option>
+          <option value="Fotógrafo">Fotógrafo</option>
+          <option value="Ator/Atriz">Ator/Atriz</option>
+        </select>
+        <button onclick="addTag()">Adicionar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
