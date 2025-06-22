@@ -278,6 +278,26 @@ Aplicação usada para gerar eventos no sistema
     }
 ```
 
+##### Estrutura de Dados - Grupos
+
+Base de dados para a criação de grupos e simulação de conversa ao abrir o chat
+
+```json
+  {
+      "id": "1",
+      "nome": "Grupo de IA",
+      "ultimaMsg": "Novas bolsas de pesquisa disponíveis!",
+      "imagem": "https://picsum.photos/60/60?random=1",
+      "mensagens": [
+        {
+          "id": 1,
+          "sender": "user",
+          "text": "Alguém viu o novo edital de IA?"
+        }
+      ]
+    }
+```
+
 ##### Estrutura de Dados - Usuários
 
 Registro dos usuários do sistema utilizados para login e para o perfil do sistema
