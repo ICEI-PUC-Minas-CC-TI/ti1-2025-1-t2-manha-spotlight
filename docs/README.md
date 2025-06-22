@@ -280,7 +280,7 @@ Aplicação usada para gerar eventos no sistema
 
 ##### Estrutura de Dados - Grupos
 
-Base de dados para a criação de grupos e simulação de conversa ao abrir o chat
+Base de dados para a criação de grupos e simulação de chat
 
 ```json
   {
