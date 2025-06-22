@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Perfil</title>
+  <link rel="stylesheet" href="perfil.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="profile-card">
+    <div class="profile-header">
+      <div class="profile-pic">
+        <img id="profileImage" src="avatar-15.png" alt="Foto de Perfil"/>
+        <label for="uploadPhoto" class="edit-photo-label hidden">+</label>
+        <input type="file" id="uploadPhoto" accept="image/*"/>
+
+        <div class="buttons">
+          <button id="editButton" class="edit-button">Editar Perfil</button>
+          <button id="saveButton" class="save-button hidden">Salvar</button>
+          <button id="cancelButton" class="cancel-button hidden">Cancelar</button>
+        </div>
+      </div>
+
+      <div class="profile-info">
+        <h3>Nome Completo:</h3>
+        <p id="nomeDisplay"></p>
+        <input type="text" id="nomeInput" class="hidden" />
+
+        <h3>Email:</h3>
+        <p id="emailDisplay"></p>
+        <input type="email" id="emailInput" class="hidden" />
+
+        <h3>Nome de Usuário:</h3>
+        <p id="loginDisplay"></p>
+        <input type="text" id="loginInput" class="hidden" disabled /> <h3>Senha:</h3>
+        <p id="senhaDisplay">********</p>
+        <input type="password" id="senhaInput" class="hidden" placeholder="Nova Senha (deixe em branco para não alterar)" />
+
+        <div class="user-roles mt-3">
+          <input type="checkbox" id="isProdutor" disabled>
+          <label for="isProdutor">Sou um Produtor</label><br>
+          <input type="checkbox" id="isArtista" disabled>
+          <label for="isArtista">Sou um Artista</label>
+        </div>
+
+        <h3>Sobre Mim:</h3>
+        <p id="bioDisplay">Adicione uma biografia...</p>
+        <textarea id="bioInput" class="hidden" rows="3" placeholder="Escreva algo sobre você..."></textarea>
+      </div>
+    </div>
+
+    <div class="tags">
+      <h3>Interesses/Tags:</h3>
+      <div class="tag-list" id="tagList"></div>
+
+      <div class="add-tag hidden" id="addTagContainer">
+        <select id="newTagSelect">
+          <option value="">Selecionar tag:</option>
+          <option value="Músico">Músico</option>
+          <option value="Pintor">Pintor</option>
+          <option value="Desenhista">Desenhista</option>
+          <option value="Fotógrafo">Fotógrafo</option>
+          <option value="Ator/Atriz">Ator/Atriz</option>
+          <option value="Escritor">Escritor</option>
+          <option value="Escultor">Escultor</option>
+          <option value="Produtor Musical">Produtor Musical</option>
+          <option value="Produtor de Eventos">Produtor de Eventos</option>
+        </select>
+        <button onclick="addTag()">Adicionar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="perfil.js"></script>
+</body>
+</html>

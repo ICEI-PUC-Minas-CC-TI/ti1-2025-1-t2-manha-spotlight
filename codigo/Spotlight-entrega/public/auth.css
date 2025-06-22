@@ -1,0 +1,37 @@
+body.bg-dark {
+    background-color: #343a40 !important;
+}
+
+header.bg-dark {
+    background-color: #343a40 !important;
+}
+
+header .display-4,
+header .text-warning {
+    color: #ffc107 !important;
+}
+
+.ms-auto .text-white {
+    color: #f8f9fa !important;
+}
+
+.card.shadow.bg-light.text-dark {
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+}
+
+.btn-warning {
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+    color: #212529 !important;
+}
+
+.btn-outline-warning {
+    border-color: #ffc107 !important;
+    color: #ffc107 !important;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ffc107 !important;
+    color: #212529 !important;
+}

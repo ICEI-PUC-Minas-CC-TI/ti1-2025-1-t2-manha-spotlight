@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotlight</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body class="bg-light">
+    <header class="bg-dark text-warning py-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="display-4 mb-0">Spotlight</h1>
+            <div class="search-bar-header mx-3 flex-grow-1" style="max-width: 400px;">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Pesquisar notícias..." id="searchInput">
+                    <button class="btn btn-outline-warning" type="button" id="searchButton">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <ul id="searchSuggestions"></ul>
+            </div>
+            <div class="ms-auto position-relative">
+                <a href="perfil.html" id="user-icon-link" class="text-white d-block text-center"
+                    style="text-decoration: none;">
+                    <i class="fas fa-user fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <aside class="col-md-3 bg-dark bg-opacity-50 text-white p-0 d-flex flex-column" id="mainSidebar">
+                <div class="cabecalho-barra">
+                    <h2>Projetos</h2>
+                </div>
+                <ul class="grupo-lista" id="grupoLista">
+                </ul>
+                <div class="botao-adicionar-container produtor-only">
+                    <button id="novoGrupoBtn"><i class="fas fa-plus"></i></button>
+                </div>
+            </aside>
+            <main class="col-md-9 bg-light bg-opacity-50 p-4">
+                <section aria-labelledby="Editais" class="mb-4">
+                    <div class="container">
+                        <h2 id="Editais" class="h1 text-uppercase text-muted mb-3 fw-bold">
+                            Novos Editais
+                        </h2>
+                        <div class="border-bottom border-1 border-secondary mb-4"></div>
+                    </div>
+                    <div class="row g-3" id="noticias-container"></div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <div id="sobreposicao" class="sobreposicao-oculta">
+        <div class="conteudo-sobreposicao">
+            <button id="btnFecharSobreposicao">&times; Fechar</button>
+            <aside class="barra-lateral">
+                <h1>GRUPOS</h1>
+                <div id="groupSection" style="display: none; flex-grow: 1; display: flex; flex-direction: column;">
+                    <div id="groupListContainer">
+                        </div>
+                    <button id="criarGrupoBtn" class="btn btn-primary w-100 mt-auto">Criar Grupo</button>
+                </div>
+            </aside>
+            <main class="detalhes-evento">
+                <div class="img-evento">
+                    <img id="sobreposicao-img" src="" alt="Imagem do Edital">
+                </div>
+                <div class="caixa-descricao">
+                    <h2 id="titulo-edital">Título do Edital</h2>
+                    <p id="autor-edital"><strong>Autor:</strong> <span></span></p>
+                    <p id="local-edital"><i class="fas fa-map-marker-alt"></i> <span></span></p>
+                    <p id="data-edital"><i class="fas fa-calendar-day"></i> <span></span></p>
+                    <p id="descricao-edital"></p>
+                </div>
+                <div class="caixa-inscricao">
+                    <div class="d-flex flex-column gap-2 mb-3 produtor-only">
+                        <button class="btn btn-info edit-btn-sobreposicao" data-id="">Editar</button>
+                        <button class="btn btn-danger delete-btn-sobreposicao" data-id="">Excluir</button>
+                    </div>
+                    <button class="btnInscricao">Inscrever-se</button>
+                    <button class="btnFavoritar" data-id="">
+                        <i class="far fa-heart"></i> Favoritar
+                    </button>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div id="eventoFormSobreposicao" class="sobreposicao-oculta">
+        <div class="modal-conteudo">
+            <button id="fecharFormBtn" class="fechar-btn">&times;</button>
+            <h2 id="formTitulo">Adicionar Novo Evento</h2>
+            <form id="eventoForm">
+                <input type="hidden" id="eventoId">
+                <div class="mb-3">
+                    <label for="titulo" class="form-label">Título</label>
+                    <input type="text" class="form-control" id="titulo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="autor" class="form-label">Autor</label>
+                    <input type="text" class="form-control" id="autor" required>
+                </div>
+                <div class="mb-3">
+                    <label for="data" class="form-label">Data</label>
+                    <input type="date" class="form-control" id="data" required>
+                </div>
+                <div class="mb-3">
+                    <label for="local" class="form-label">Local</label>
+                    <input type="text" class="form-control" id="local" required>
+                </div>
+                <div class="mb-3">
+                    <label for="texto" class="form-label">Descrição</label>
+                    <textarea class="form-control" id="texto" rows="5" required></textarea>
+                </div>
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="destaque">
+                    <label class="form-check-label" for="destaque">Destaque</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Salvar Evento</button>
+            </form>
+        </div>
+    </div>
+    
+    <div id="createGroupModal">
+        <div class="modal-conteudo">
+            <button id="closeGroupModalBtn" class="fechar-btn">&times;</button>
+            <h2 id="createGroupFormTitle">Criar Novo Grupo</h2>
+            <form id="createGroupForm">
+                <div class="mb-3">
+                    <label for="groupName" class="form-label">Nome do Grupo</label>
+                    <input type="text" class="form-control" id="groupName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="groupDescription" class="form-label">Descrição</label>
+                    <textarea class="form-control" id="groupDescription" rows="3" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="groupAvatar" class="form-label">Avatar do Grupo (URL da Imagem)</label>
+                    <input type="url" class="form-control" id="groupAvatar" placeholder="https://exemplo.com/imagem.png">
+                    <small class="form-text text-muted">Cole a URL de uma imagem para o avatar. Se deixar em branco, uma imagem aleatória será usada.</small>
+                </div>
+                <div class="d-flex justify-content-end gap-2">
+                    <button type="button" id="cancelGroupCreationBtn" class="btn btn-secondary">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Criar Grupo</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="groupDetailsModal">
+        <div class="group-details-content">
+            <button id="closeGroupDetailsModalBtn" class="fechar-btn">&times;</button>
+            
+            <div id="groupDetailsView">
+                <img id="groupDetailsImage" src="" alt="Avatar do Grupo">
+                <h2 id="groupDetailsName"></h2>
+                <p id="groupDetailsDescription"></p>
+                <div class="d-flex justify-content-center gap-2 mt-3 produtor-only" id="groupActionButtons">
+                    <button class="btn btn-danger" id="deleteGroupBtn">Excluir Grupo</button>
+                    <button class="btn btn-info" id="editGroupBtn">Editar Grupo</button>
+                </div>
+            </div>
+
+            <div id="groupEditView" class="hidden">
+                <h3>Editando Grupo</h3>
+                <form id="groupEditForm">
+                    <div class="mb-3 text-start">
+                        <label for="groupEditName" class="form-label">Nome do Grupo</label>
+                        <input type="text" class="form-control" id="groupEditName" required>
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label for="groupEditDescription" class="form-label">Descrição</label>
+                        <textarea class="form-control" id="groupEditDescription" rows="3" required></textarea>
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label for="groupEditAvatar" class="form-label">Avatar do Grupo (URL)</label>
+                        <input type="url" class="form-control" id="groupEditAvatar">
+                    </div>
+                    <div class="d-flex justify-content-center gap-2">
+                        <button type="button" class="btn btn-secondary" id="cancelEditGroupBtn">Cancelar</button>
+                        <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2025 Spotlight</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>

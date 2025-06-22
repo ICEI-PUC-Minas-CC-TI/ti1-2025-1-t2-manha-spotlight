@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Novo Evento/Edital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="cadastro-page">
+    <main class="container-cadastro">
+        <header class="header-cadastro">
+            <h2>Cadastrar Novo Evento/Edital</h2>
+            <a href="index.html" class="btn-secundario">Voltar para a Tela Principal</a>
+        </header>
+
+        <form id="formCadastroEvento">
+            <div class="form-group">
+                <label for="tituloEvento">Título do Evento/Edital:</label>
+                <input type="text" id="tituloEvento" required>
+            </div>
+
+            <div class="form-group">
+                <label for="descricaoEvento">Descrição Detalhada:</label>
+                <textarea id="descricaoEvento" rows="4" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="dataEvento">Data e Hora do Evento:</label>
+                <input type="datetime-local" id="dataEvento" required>
+            </div>
+
+            <div class="form-group">
+                <label for="autorEvento">Autor/Organizador:</label>
+                <input type="text" id="autorEvento" required>
+            </div>
+
+            <div class="form-group">
+                <label for="localEvento">Local (ou "Online"):</label>
+                <input type="text" id="localEvento" required>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" id="destaqueEvento">
+                <label for="destaqueEvento" style="display: inline;">Marcar como Destaque</label>
+            </div>
+
+            <button type="submit">Cadastrar Evento/Edital</button>
+        </form>
+
+        <p id="mensagemStatus"></p>
+    </main>
+
+    <script src="scriptCadastro.js"></script>
+</body>
+
+</html>
