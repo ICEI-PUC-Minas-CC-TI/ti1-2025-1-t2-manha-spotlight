@@ -207,8 +207,8 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 | --------------------------- | ---------- | -------------------------------------------------- |
 | Processo de Design Thinking | Miro       | https://miro.com/welcomeonboard/dDNEVEMyQ21FeFZuK1RRZzFleldqQnYrWDlUWTIzbmtVTDlCaWJnNU04SHBQK1dNU0ZwZ3BRTXl0dFZSdkVwR04yZTFTQjZTT2kya0FWQUJ4S05wVVR5Vi8yamtSUkdNNHF1ME5zYVhpQTNlSHUxVDNjOHFJVTV1dUNiZEpQU0JBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=269687455722       |
 | Repositório de código     | GitHub     |   https://github.com/ICEI-PUC-Minas-CC-TI/ti1-2025-1-t2-manha-spotlight.git    |
-| Hospedagem do site          | Render     |  |
-| Protótipo Interativo       | MarvelApp  | https://www.figma.com/proto/uQ0EdlGDK7cT2GGH7AHuIC/Wireframe-TI---COMUNIDADE-DE-ARTISTAS-E-PRODUTORES?node-id=15-9&p=f&t=j5LUTP3P8sqqbsBV-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A9   |
+| Hospedagem do site          | Replit     |  |
+| Protótipo Interativo       | Figma  | https://www.figma.com/proto/uQ0EdlGDK7cT2GGH7AHuIC/Wireframe-TI---COMUNIDADE-DE-ARTISTAS-E-PRODUTORES?node-id=15-9&p=f&t=j5LUTP3P8sqqbsBV-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A9   |
 |                             |            |                                                    |
 
 ## Gerenciamento do Projeto
@@ -310,21 +310,15 @@ Registro dos usuários do sistema utilizados para login e para o perfil do siste
 Esta seção apresenta os módulos e APIs utilizados na solução
 
 **Images**:
-
-* Unsplash - [https://unsplash.com/](https://unsplash.com/) ⚠️ EXEMPLO ⚠️
+* Lorem Picsum - [https://picsum.photos](https://picsum.photos)
 
 **Fonts:**
-
-* Icons Font Face - [https://fontawesome.com/](https://fontawesome.com/) ⚠️ EXEMPLO ⚠️
+* Icons Font Face - [https://fontawesome.com/](https://fontawesome.com/)
 
 **Scripts:**
-
-* jQuery - [http://www.jquery.com/](http://www.jquery.com/) ⚠️ EXEMPLO ⚠️
-* Bootstrap 4 - [http://getbootstrap.com/](http://getbootstrap.com/) ⚠️ EXEMPLO ⚠️
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente os módulos e APIs utilizados no desenvolvimento da solução. Inclua itens como: (1) Frameworks, bibliotecas, módulos, etc. utilizados no desenvolvimento da solução; (2) APIs utilizadas para acesso a dados, serviços, etc.
+* Sweetalert2 - [https://sweetalert2.github.io](https://sweetalert2.github.io)
+* jQuery - [http://www.jquery.com/](http://www.jquery.com/)
+* Bootstrap 5 - [http://getbootstrap.com/](http://getbootstrap.com/)
 
 # Referências
 
