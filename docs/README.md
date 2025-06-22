@@ -224,38 +224,169 @@ Esta seção apresenta todos os detalhes da solução criada no projeto.
 
 ## Vídeo do Projeto
 
-O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução. ⚠️ EXEMPLO ⚠️
+O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução.
 
 [![Vídeo do projeto](images/video.png)](https://www.youtube.com/embed/70gGoFyGeqQ)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O video de apresentação é voltado para que o público externo possa conhecer a solução. O formato é livre, sendo importante que seja apresentado o problema e a solução numa linguagem descomplicada e direta.
->
-> Inclua um link para o vídeo do projeto.
 
 ## Funcionalidades
 
 Esta seção apresenta as funcionalidades da solução.Info
 
-##### Funcionalidade 1 - Cadastro de Contatos ⚠️ EXEMPLO ⚠️
+##### Funcionalidade - Login e Cadastro
 
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+Crie ou acesse uma conta na plataforma
 
-* **Estrutura de dados:** [Contatos](#ti_ed_contatos)
+* **Estrutura de dados:** [Usuários](#ti_ed_usuarios)
 * **Instruções de acesso:**
-  * Abra o site e efetue o login
-  * Acesse o menu principal e escolha a opção Cadastros
-  * Em seguida, escolha a opção Contatos
+  * Acesse o site
+  * Preencha os dados para login e "entrar"
+  * Caso não seja cadastrado, vá na opção "criar nova conta" e preencha os dados
+
 * **Tela da funcionalidade**:
 
-![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
+![bem vindos](image-12.png)
+![login](image-13.png)
+![criar conta](image-14.png)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
->
-> Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
+##### Funcionalidade 1 - Tela principal
+
+Permite a visualização dos cards de eventos, barra lateral de chat, barra de pesquisa e acesso ao perfil do usuário
+
+* **Estrutura de dados:** [Eventos, Grupos](#ti_ed_eventos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login
+  * Leia os detalhes do evento em destaque
+
+* **Tela da funcionalidade**:
+
+![tela principal](image.png)
+
+##### Funcionalidade 2 - Detalhes do Evento
+
+Permite a visualização de mais informações a respeito do evento em destaque
+
+* **Estrutura de dados:** [Eventos](#ti_ed_eventos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login
+  * Aperte em um destaque
+  * Uma aba de sobreposição deve ser aberta
+  * Desça a página sobreposta para ler mais informações
+
+* **Tela da funcionalidade**:
+
+![detalhes do evento](image-1.png)
+
+##### Funcionalidade 3 - Barra lateral de chat
+
+Ao clicar em um grupo, será levado aos detalhes do evento relacionado ao grupo criado
+
+* **Estrutura de dados:** [Grupos](#ti_ed_grupos)
+* **Instruções de acesso:**
+  * Efetue o login
+  * Escolha um dos grupos da barra lateral cinza
+  * Clique sobre o grupo
+
+* **Tela da funcionalidade**:
+
+![barra lateral chat](image-2.png)
+![barra lateral chat](image-3.png)
+
+##### Funcionalidade 4 - Botão Favoritar
+
+Ao abrir os detalhes de um grupo conseguirá ter acesso ao botão "favoritar", salvando um evento
+
+* **Estrutura de dados:** [Eventos](#ti_ed_eventos)
+* **Instruções de acesso:**
+  * Vá para detalhes do evento
+  * Desça a página sobreposta até o fim
+  * Clique sobre "favoritar"
+  * Saia do detalhes do evento (janela sobreposta) e digite na barra de pesquisa "favoritos"
+  * Selecione a sugestão de pesquisa "💛 favoritos"
+  * Para desfavoritar, clique no coração sobre o card de evento
+
+* **Tela da funcionalidade**:
+
+![favoritar](image-4.png)
+![favoritos](image-5.png)
+
+##### Funcionalidade 5 - Barra de pesquisa
+
+Busque por palavras chaves e encontre um evento de interesse
+
+* **Estrutura de dados:** [Eventos](#ti_ed_eventos)
+* **Instruções de acesso:**
+  * Limpe a barra de pesquisa
+  * Escreva uma palavra chave e aperte enter
+  * O evento relacionado a pesquisa aparece
+
+* **Tela da funcionalidade**:
+
+![barra de pesquisa](image-6.png)
+
+##### Funcionalidade 6 - Inscrição em evento
+
+Se inscreva para participar de eventos e acessar os grupos de organização
+
+* **Estrutura de dados:** [Eventos, Grupos](#ti_ed_eventos)
+* **Instruções de acesso:**
+  * Abra detalhes do evento
+  * Desça a página e encontre o botão de "inscrever-se"
+  * Clique no botão e os grupos relacionados ao projeto aparecem do lado esquerdo da sobreposição
+
+* **Tela da funcionalidade**:
+
+![alt text](image-9.png)
+
+##### Funcionalidade 7 - Cadastro de grupo
+
+Para produtores, esta funcionalidade servirá para criar grupos de organização do evento
+
+* **Estrutura de dados:** [Grupos](#ti_ed_grupos)
+* **Instruções de acesso:**
+  * Faça login como produtor
+  * Após inscrição do evento, acesse "criar grupo"
+  * Depois de preencher e criar, um grupo aparece na barra de "grupos" dentro do evento
+
+  * Para editar, clique sobre o grupo criado
+  * Faça as alterações e salve
+
+- Obs: Somente produtores podem fazer estes ajustes e criações
+
+* **Tela da funcionalidade**:
+
+![cadastro grupo](image-7.png)
+
+##### Funcionalidade 8 - Cadastro de eventos
+
+Produtores podem divulgar seus eventos através da criação de um evento para a plataforma
+
+* **Estrutura de dados:** [Eventos](#ti_ed_eventos)
+* **Instruções de acesso:**
+  * Faça login como produtor
+  * Acesse a barra lateral e vá para o inferior esquerdo
+  * Ao encontrar o "+", clique
+  * Preencha os dados e publique o evento
+
+- Obs: Somente produtores podem fazer estes ajustes e criações
+
+* **Tela da funcionalidade**:
+
+![cadastro evento](image-8.png)
+
+##### Funcionalidade 9 - Perfil
+
+Perfil contendo dados e descrições, seja do artista ou produtor
+
+* **Estrutura de dados:** [Usuários](#ti_ed_usuarios)
+* **Instruções de acesso:**
+  * Acesse a tela principal
+  * Clique no icone de usuário no superior direito
+  * Edite suas informações
+
+* **Tela da funcionalidade**:
+
+![perfil produtor](image-10.png)
+![perfil artista](image-11.png)
 
 ## Estruturas de Dados
 
