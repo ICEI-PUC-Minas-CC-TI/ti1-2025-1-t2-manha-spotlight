@@ -215,7 +215,8 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 
 Divisão de papéis no grupo e apresentação da estrutura da ferramenta de controle de tarefas (Kanban).
 
-![Exemplo de Kanban](images/kanban.png)
+![Exemplo de Kanban](images/kanban1.png)
+![Exemplo de Kanban](images/kanban2.png)
 
 # Solução Implementada
 
@@ -260,48 +261,49 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
 
-##### Estrutura de Dados - Contatos   ⚠️ EXEMPLO ⚠️
+##### Estrutura de Dados - Eventos
 
-Contatos da aplicação
+Aplicação usada para gerar eventos no sistema
 
 ```json
   {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
-  }
-  
+      "id": "1",
+      "titulo": "Chamada para Bolsas de Pesquisa em IA",
+      "autor": "Universidade XYZ",
+      "data": "2025-07-15",
+      "local": "São Paulo, SP",
+      "imagem": "https://picsum.photos/600/400?random=101",
+      "texto": "Estão abertas as inscrições para o programa de bolsas de pesquisa em Inteligência Artificial, com foco em aprendizado de máquina e redes neurais. O programa oferece suporte financeiro e infraestrutura de ponta para projetos inovadores. Os candidatos devem possuir graduação em áreas correlatas e demonstrar experiência prévia em projetos de IA. Mais informações no edital completo.",
+      "destaque": true
+    }
 ```
 
-##### Estrutura de Dados - Usuários  ⚠️ EXEMPLO ⚠️
+##### Estrutura de Dados - Usuários
 
 Registro dos usuários do sistema utilizados para login e para o perfil do sistema
 
 ```json
   {
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    email: "admin@abc.com",
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    login: "admin",
-    nome: "Administrador do Sistema",
-    senha: "123"
-  }
+      "id": "1",
+      "nome": "Produtor Exemplo",
+      "login": "produtor",
+      "senha": "123",
+      "email": "produtor@spotlight.com",
+      "produtor": true,
+      "artista": false,
+      "foto": ""
+    },
+    {
+      "id": "2",
+      "nome": "Artista Exemplo",
+      "login": "artista",
+      "senha": "123",
+      "email": "artista@spotlight.com",
+      "produtor": false,
+      "artista": true,
+      "foto": ""
+    }
 ```
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente as estruturas de dados utilizadas na solução tanto para dados utilizados na essência da aplicação quanto outras estruturas que foram criadas para algum tipo de configuração
->
-> Nomeie a estrutura, coloque uma descrição sucinta e apresente um exemplo em formato JSON.
->
-> **Orientações:**
->
-> * [JSON Introduction](https://www.w3schools.com/js/js_json_intro.asp)
-> * [Trabalhando com JSON - Aprendendo desenvolvimento web | MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON)
 
 ## Módulos e APIs
 
