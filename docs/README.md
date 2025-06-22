@@ -328,19 +328,12 @@ Esta seção apresenta os módulos e APIs utilizados na solução
 
 As referências utilizadas no trabalho foram:
 
-* APLAUSOS. Plataforma de Rede Social Musical. Aplausos – Plataforma Musical de Colaboração Online, 2025. Disponível em: https://www.aplausos.net/. Acesso em: 12 março. 2025.
+* APLAUSOS. Plataforma de Rede Social Musical. Aplausos – Plataforma Musical de Colaboração Online, 2025. Disponível em: https://www.aplausos.net/. Acesso em: 12 março 2025.
 
-* MUSICONNECT.IO. Ecossistema inovador para interação entre músicos, produtores e profissionais da música. Musiconnect.io, 2025. Disponível em: https://musiconnect.io/. Acesso em: 12 março. 2025.
+* MUSICONNECT.IO. Ecossistema inovador para interação entre músicos, produtores e profissionais da música. Musiconnect.io, 2025. Disponível em: https://musiconnect.io/. Acesso em: 12 março 2025.
 
-* COLAB55. Colab55, a plataforma de economia colaborativa para artistas independentes. Design Culture, 27 jun. 2016. Disponível em: https://designculture.com.br/colab55-a-plataforma-de-economia-colaborativa-para-artistas-independentes/. Acesso em: 12 março. 2025.
+* COLAB55. Colab55, a plataforma de economia colaborativa para artistas independentes. Design Culture, 27 jun. 2016. Disponível em: https://designculture.com.br/colab55-a-plataforma-de-economia-colaborativa-para-artistas-independentes/. Acesso em: 12 março 2025.
 
-* BRASIL COLLAB. Plataforma mapeia artistas independentes do país. Digitais – Faculdade de Jornalismo da PUC‑Campinas, 14 dez. 2020 (atualizado em 21 dez. 2020). Disponível em: https://digitais.net.br/2020/12/plataforma-mapeia-artistas-independentes-do-pais/. Acesso em: 12 março. 2025.
+* BRASIL COLLAB. Plataforma mapeia artistas independentes do país. Digitais – Faculdade de Jornalismo da PUC‑Campinas, 14 dez. 2020 (atualizado em 21 dez. 2020). Disponível em: https://digitais.net.br/2020/12/plataforma-mapeia-artistas-independentes-do-pais/. Acesso em: 12 março 2025.
 
-* SUA MÚSICA. Plataforma de streaming gratuita para artistas nordestinos. Wikipédia, 2025. Disponível em: https://pt.wikipedia.org/wiki/Sua_M%C3%BAsica. Acesso em: 12 março. 2025.
-
->
-> **Orientações**:
->
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
->
+* SUA MÚSICA. Plataforma de streaming gratuita para artistas nordestinos. Wikipédia, 2025. Disponível em: https://pt.wikipedia.org/wiki/Sua_M%C3%BAsica. Acesso em: 12 março 2025.
