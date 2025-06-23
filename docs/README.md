@@ -207,7 +207,7 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 | --------------------------- | ---------- | -------------------------------------------------- |
 | Processo de Design Thinking | Miro       | https://miro.com/welcomeonboard/dDNEVEMyQ21FeFZuK1RRZzFleldqQnYrWDlUWTIzbmtVTDlCaWJnNU04SHBQK1dNU0ZwZ3BRTXl0dFZSdkVwR04yZTFTQjZTT2kya0FWQUJ4S05wVVR5Vi8yamtSUkdNNHF1ME5zYVhpQTNlSHUxVDNjOHFJVTV1dUNiZEpQU0JBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=269687455722       |
 | Repositório de código     | GitHub     |   https://github.com/ICEI-PUC-Minas-CC-TI/ti1-2025-1-t2-manha-spotlight.git    |
-| Hospedagem do site          | Replit     |  |
+| Hospedagem do site          | GitHub Pages     | https://lipebrks.github.io/spotlight/ |
 | Protótipo Interativo       | Figma  | https://www.figma.com/proto/uQ0EdlGDK7cT2GGH7AHuIC/Wireframe-TI---COMUNIDADE-DE-ARTISTAS-E-PRODUTORES?node-id=15-9&p=f&t=j5LUTP3P8sqqbsBV-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A9   |
 |                             |            |                                                    |
 
@@ -226,7 +226,7 @@ Esta seção apresenta todos os detalhes da solução criada no projeto.
 
 O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução.
 
-[![Vídeo do projeto](images/video.png)](https://www.youtube.com/embed/70gGoFyGeqQ)
+[![Vídeo do projeto](images/video.png)](https://drive.google.com/drive/folders/1Cdq31cYBbE0kbe4skrjr5ROxZ_6B0k3j?usp=sharing)
 
 ## Funcionalidades
 
