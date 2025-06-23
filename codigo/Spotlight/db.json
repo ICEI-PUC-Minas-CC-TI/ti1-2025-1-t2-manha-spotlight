@@ -1,0 +1,165 @@
+{
+  "noticias": [
+    {
+      "id": "12212121",
+      "titulo": "Festival Bass Mineiro",
+      "autor": "Secretaria de Cultura de MG",
+      "data": "2025-07-12",
+      "local": "Parque de Exposições de Uberlândia",
+      "texto": "Maior festival de música eletrônica do interior de MG, reunindo DJs, produtores e coletivos de audiovisual. Inscrições abertas para: 1) DJs locais (set de 1h); 2) Artistas visuais (projeções mapeadas); 3) Food trucks temáticos. 15 selecionados dividirão cachê de R$80 mil. Necessário comprovar experiência em eventos (links de redes sociais ou portfólio).",
+      "destaque": true,
+      "imagem": "https://i.postimg.cc/52wzV6j1/pexels-pixabay-248980.jpg",
+      "inscritos": [
+        "cef5"
+      ]
+    },
+    {
+      "id": "2222112",
+      "titulo": "Batalha do Beco",
+      "autor": "Coletivo Hip Hop Sul de MG",
+      "data": "2024-09-28",
+      "local": "Beco da Cultura (Varginha)",
+      "texto": "Competição de rap freestyle para MCs de todo o estado. Fases eliminatórias em 5 cidades, com final em Varginha. Premiação: 1º lugar R$10 mil + gravação de single profissional; 2º e 3º lugares: equipamentos de estúdio. Inscrição via vídeo de 1 minuto no TikTok com a hashtag #BatalhaDoBeco2024.",
+      "destaque": true,
+      "imagem": "https://i.postimg.cc/bvptNp2n/pexels-aleksandr-neplokhov-486399-1238980.jpg",
+      "inscritos": []
+    },
+    {
+      "id": "10101020022",
+      "titulo": "Grafite Conectado",
+      "autor": "Instituto Inhotim",
+      "data": "2025-04-05",
+      "local": "Muro digital do Inhotim (Brumadinho) + Instagram",
+      "texto": "Edital para grafiteiros que integram arte física e digital. 10 artistas criarão murais no instituto, com versões NFT exibidas em telas interativas. Requisitos: 1) Portfólio com obras físicas e digitais; 2) Perfil ativo no Instagram (@...); 3) Proposta que dialogue com a natureza. Premiação: R$15 mil + residência artística.",
+      "destaque": false,
+      "imagem": "https://i.postimg.cc/sfqGGphs/pexels-felicity-tai-7951897.jpg",
+      "inscritos": []
+    },
+    {
+      "id": "101202102102",
+      "titulo": "Cena Trap",
+      "autor": "Prefeitura de Juiz de Fora",
+      "data": "2024-11-15",
+      "local": "Parque Halfeld (Juiz de Fora)",
+      "texto": "Evento para artistas do trap, drill e R&B mineiro. Inscrições abertas para: 1) Shows (8 vagas); 2) Batalha de beats (produtores); 3) Mostra de videoclipes. Seleção por júri técnico e votação no Instagram (@culturjf). Premiação: gravação no estúdio móvel da prefeitura + divulgação nas plataformas oficiais.",
+      "destaque": true,
+      "imagem": "https://i.postimg.cc/j592NbCZ/pexels-din-127253222-14853508.jpg",
+      "inscritos": []
+    },
+    {
+      "id": "21221122122",
+      "titulo": "Arte no Rolê",
+      "autor": "Circuito Universitário de Cultura",
+      "data": "2025-03-20",
+      "local": "Bares universitários (BH, Viçosa, Ouro Preto)",
+      "texto": "Convocatória para artistas que transformam eventos noturnos em experiências imersivas: 1) Ilustradores ao vivo; 2) VJs; 3) Performers. 30 selecionados receberão cachê por noite (R$800) + divulgação nos canais oficiais. Exigência: ter trabalhado em pelo menos 3 eventos (links de redes como comprovação).",
+      "destaque": false,
+      "imagem": "https://i.postimg.cc/fkQb2fcd/pexels-rdne-6173832.jpg",
+      "inscritos": []
+    },
+    {
+      "id": "2222111111",
+      "titulo": "Quebrada Cultural",
+      "autor": "Rede de Coletivos Periféricos",
+      "data": "2024-12-10",
+      "local": "Comunidades de Contagem, Ribeirão das Neves e Sabará",
+      "texto": "Editais para coletivos artísticos das periferias: 1) Música (funk, rap, pagode); 2) Dança (passinho, break); 3) Poesia falada. Melhores projetos receberão R$5 mil + estrutura para evento local. Inscrição via formulário online com link de redes sociais (mínimo 1 ano de atividade comprovada).",
+      "destaque": true,
+      "imagem": "https://i.postimg.cc/prFQ4vS6/pexels-marcin-dampc-807808-1684187.jpg",
+      "inscritos": []
+    },
+    {
+      "id": "2222222",
+      "titulo": "Minas no Palco",
+      "autor": "Governo de Minas Gerais",
+      "data": "2025-06-25",
+      "local": "Teatro Francisco Nunes (BH) + transmissão digital",
+      "texto": "Seleção estadual para artistas urbanos: 1) Bandas autorais; 2) Solo performers; 3) Coletivos cênicos. 12 finalistas se apresentarão no teatro, com transmissão ao vivo no YouTube. Premiação: contrato para turnê em 5 cidades + sessão de mentoria com artistas consagrados. Inscrição: vídeo de 5 minutos no Google Drive.",
+      "destaque": true,
+      "imagem": "https://i.postimg.cc/mZJ8wXnn/pexels-alparslan-uzun-606841680-19582195.jpg",
+      "inscritos": []
+    }
+  ],
+  "grupos": [
+    {
+      "id": "7f50",
+      "noticiaId": null,
+      "nome": "dwdsawds",
+      "descricao": "awdsawdsa",
+      "imagem": "https://picsum.photos/60/60?random=41",
+      "ultimaMsg": "Grupo recém-criado!",
+      "mensagens": []
+    },
+    {
+      "id": "2640",
+      "noticiaId": null,
+      "nome": "bananas",
+      "descricao": "os bananas",
+      "imagem": "https://i.postimg.cc/rsQjqLx9/CU6-HU7-WMEVF2-THSPFT7-RBQXFWM.jpg",
+      "ultimaMsg": "Grupo recém-criado!",
+      "mensagens": []
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Produtor Exemplo",
+      "login": "produtor",
+      "senha": "123",
+      "email": "produtor@spotlight.com",
+      "produtor": true,
+      "artista": false,
+      "foto": ""
+    },
+    {
+      "id": "2",
+      "nome": "Artista Exemplo",
+      "login": "artista",
+      "senha": "123",
+      "email": "artista@spotlight.com",
+      "produtor": false,
+      "artista": true,
+      "foto": ""
+    },
+    {
+      "id": "z2i0mnn25",
+      "nome": "g",
+      "login": "g",
+      "senha": "g",
+      "email": "g@gmail.com",
+      "produtor": true,
+      "artista": false,
+      "foto": "https://via.placeholder.com/100",
+      "biografia": "Um produtor de eventos apaixonado por música e arte urbana.",
+      "tags": [
+        "Produtor de Eventos",
+        "Música"
+      ]
+    },
+    {
+      "id": "8648",
+      "nome": "p",
+      "email": "p@gmail.com",
+      "login": "p",
+      "senha": "p",
+      "produtor": false,
+      "artista": true,
+      "foto": "",
+      "biografia": "Um produtor de eventos apaixonado por música e arte urbana.",
+      "tags": [
+        "Produtor de Eventos",
+        "Música"
+      ]
+    },
+    {
+      "id": "cef5",
+      "nome": "gabriel",
+      "email": "lorem@ipsum",
+      "login": "gabriel",
+      "senha": "123",
+      "produtor": true,
+      "artista": false,
+      "foto": ""
+    }
+  ]
+}
